@@ -18,7 +18,7 @@
 <li><p>Finally, a message is displayed indicating the completion of the process of exporting all databases.</p></li>
 <ul>
   
-<p>The code assumes default values for the username and password, but it's important to provide the correct credentials manually before running the script to ensure successful execution.</p>
+<h2>The code assumes default values for the username and password, but it's important to provide the correct credentials manually before running the script to ensure successful execution.</h2>
   
   <table>
   <tr>
