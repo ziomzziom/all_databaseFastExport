@@ -58,4 +58,13 @@
     <td>Default values assumed, manual input required</td>
   </tr>
 </table>
+  
+  <h1>EVENTUALLY</h1>
+  <pre>
+    <code>
+      for /f "skip=1" %i in ('mysql -u root -e "show databases;"') do mysqldump -u root %i > %i.sql
+    </code>
+  </pre>
+  <b>This code block represents a loop in a batch script. It retrieves a list of MySQL databases using the mysql -u root -e "show databases;" command and iterates over each database. For each database, it performs a mysqldump command to export the database into a corresponding SQL file (%i.sql), where %i represents the name of the database.
 
+Please note that this code assumes that the MySQL username is "root". Make sure to modify it if a different username is used.</b>
