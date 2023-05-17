@@ -2,6 +2,7 @@
 <hr>
 <p>The provided code is a Bash script that exports all databases using the mysqldump command.</p>
 
+<b>Code Description:</b>
 
 <ul>
 <li><p>It sets the database login credentials: hostname, username, and password.</p></li>
