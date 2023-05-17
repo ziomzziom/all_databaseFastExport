@@ -60,9 +60,9 @@
 </table>
   
   <h1>EVENTUALLY</h1>
-  <pre>
-    <code>
-      for /f "skip=1" %i in ('mysql -u root -e "show databases;"') do mysqldump -u root %i > %i.sql
-    </code>
-  </pre>
+  
+  ```
+  for /f "skip=1" %i in ('mysql -u root -e "show databases;"') do mysqldump -u root %i > %i.sql
+  ```
+  
   <b>This loop executes a command-line loop in a Windows batch script. It retrieves a list of MySQL databases using the mysql -u root -e "show databases;" command and iterates over each database. For each database, it performs a mysqldump command to export the database into an SQL file with the same name as the database.</b>
