@@ -17,4 +17,45 @@
 
 <li><p>Finally, a message is displayed indicating the completion of the process of exporting all databases.</p></li>
 <ul>
+  
 <p>The code assumes default values for the username and password, but it's important to provide the correct credentials manually before running the script to ensure successful execution.</p>
+  
+  <table>
+  <tr>
+    <th>Component</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Script Type</td>
+    <td>Bash script</td>
+  </tr>
+  <tr>
+    <td>Command</td>
+    <td>mysqldump</td>
+  </tr>
+  <tr>
+    <td>Database Login</td>
+    <td>Hostname, username, password</td>
+  </tr>
+  <tr>
+    <td>Output Variable</td>
+    <td>dbListOutput</td>
+  </tr>
+  <tr>
+    <td>Database Names</td>
+    <td>Stored in the dbNames array</td>
+  </tr>
+  <tr>
+    <td>Export Process</td>
+    <td>Iterates over each database, exports using mysqldump, and saves to corresponding file</td>
+  </tr>
+  <tr>
+    <td>Messages</td>
+    <td>Displayed after each export and at the end of the process</td>
+  </tr>
+  <tr>
+    <td>Credentials</td>
+    <td>Default values assumed, manual input required</td>
+  </tr>
+</table>
+
