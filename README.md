@@ -1,6 +1,6 @@
 <h1>Fast exportation of MySQL databases</h1>
 <hr>
-<p>The provided code is a Bash script that exports all databases using the mysqldump command.</p>
+<p>The script is a Bash script that exports all databases using the mysqldump command.</p>
 
 <b>Code Description:</b>
 
@@ -18,7 +18,7 @@
 <li><p>Finally, a message is displayed indicating the completion of the process of exporting all databases.</p></li>
 <ul>
   
-<h2>The code assumes default values for the username and password, but it's important to provide the correct credentials manually before running the script to ensure successful execution.</h2>
+<h2>The code assumes default values for the username and password, please provide the MySQL login credentials manually before running the script to ensure successful execution.</h2>
   
   <table>
   <tr>
